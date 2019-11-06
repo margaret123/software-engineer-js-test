@@ -12,7 +12,7 @@ This application is using webpack to build it.
 
 It is developed with web components. Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.
 
-The components can be found in the component folder and each component consists of _.index.js_. and _.template.js files_..
+The components can be found in the _.components_. folder and each component consists of _.index.js_. and _.template.js files_.
 
 The entry point for this application is _./components/app-element/index.js_. The build script
 will ensure these get automatically built for use in your browser.
@@ -34,7 +34,7 @@ the command line using:
     
 You can now start the application using NPM by typing:
 
-    npm run start
+    npm start
     
 The following will happen:
 
